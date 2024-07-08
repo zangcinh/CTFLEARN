@@ -7,6 +7,7 @@ Think the flag is somewhere in there. Would you help me find it? hint-" Steghide
 # Description #
 Cần sử dụng streghide để trích xuất dữ liệu từ ảnh nên ta cần passphrase
 Sử dụng `strings` thấy `myadmin` 1 chuỗi kí tự cố thể đọc được -> có thể là passphrase
+
 ![image](https://github.com/zangcinh/CTFLEARN/assets/173159694/ac13ee7b-29dc-47a2-a380-812a84a4555b)
 
 `steghide extract -sf Minions`.jpeg` 
